@@ -1,0 +1,150 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #dce4ec; /* Light background color */
+  color: #333;
+}
+
+/* Header Styling */
+.main-header {
+  background-image: url("images/truck2.jpeg");
+  background-color: #0073e6; /* Blue similar to freshwatersupplier.com */
+  color: #fff;
+  padding: 20px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-info h1,
+.header-info h2 {
+  margin: 0;
+}
+
+.header-info h2 {
+  color: aqua;
+  margin-top: 10px;
+}
+
+.contact-header {
+  font-size: 1.2em;
+  margin-top: 5px;
+}
+
+/* Image Gallery */
+.image-gallery {
+  display: flex;
+  gap: 10px;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.image-gallery .column {
+  flex: 1;
+}
+
+.image-gallery img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Service Areas */
+.service-areas {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.service-areas h3 {
+  color: #0073e6;
+  margin-bottom: 15px;
+}
+
+.service-areas ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.service-areas li {
+  flex: 0 1 30%;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+/* Main Content */
+.main-content {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.main-content h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #0073e6;
+}
+
+.main-content p {
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+  background-image: url("images/truck2.jpeg");
+  background-color: #0073e6; /* Matching header color */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-container p {
+  margin: 5px 0;
+}
+
+.footerContact {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-links img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.social-links img:hover {
+  transform: scale(1.1);
+}
